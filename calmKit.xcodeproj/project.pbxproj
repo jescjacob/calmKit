@@ -12,9 +12,15 @@
 		FC43BA7A228EB32800181337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC43BA78228EB32800181337 /* Main.storyboard */; };
 		FC43BA7C228EB32900181337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC43BA7B228EB32900181337 /* Assets.xcassets */; };
 		FC43BA7F228EB32900181337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC43BA7D228EB32900181337 /* LaunchScreen.storyboard */; };
+		FCAE8200229287CA0072D4B8 /* lagu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCAE81FB229287CA0072D4B8 /* lagu.mp3 */; };
+		FCAE8201229287CA0072D4B8 /* wind.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCAE81FC229287CA0072D4B8 /* wind.wav */; };
+		FCAE8202229287CA0072D4B8 /* fireplace.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCAE81FD229287CA0072D4B8 /* fireplace.wav */; };
+		FCAE8203229287CA0072D4B8 /* bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCAE81FE229287CA0072D4B8 /* bird.wav */; };
+		FCAE8204229287CA0072D4B8 /* water.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCAE81FF229287CA0072D4B8 /* water.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC2779642292803D00AF39EF /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = music; path = ../../../../.Trash/music; sourceTree = "<group>"; };
 		FC43BA71228EB32800181337 /* calmKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calmKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC43BA74228EB32800181337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC43BA76228EB32800181337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,11 @@
 		FC43BA7B228EB32900181337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC43BA7E228EB32900181337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC43BA80228EB32900181337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAE81FB229287CA0072D4B8 /* lagu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lagu.mp3; path = calmKit/music/lagu.mp3; sourceTree = SOURCE_ROOT; };
+		FCAE81FC229287CA0072D4B8 /* wind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wind.wav; path = calmKit/music/wind.wav; sourceTree = SOURCE_ROOT; };
+		FCAE81FD229287CA0072D4B8 /* fireplace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fireplace.wav; path = calmKit/music/fireplace.wav; sourceTree = SOURCE_ROOT; };
+		FCAE81FE229287CA0072D4B8 /* bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bird.wav; path = calmKit/music/bird.wav; sourceTree = SOURCE_ROOT; };
+		FCAE81FF229287CA0072D4B8 /* water.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = water.wav; path = calmKit/music/water.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 		FC43BA68228EB32800181337 = {
 			isa = PBXGroup;
 			children = (
+				FCAE81FA229287A70072D4B8 /* music */,
 				FC43BA73228EB32800181337 /* calmKit */,
 				FC43BA72228EB32800181337 /* Products */,
 			);
@@ -60,8 +72,21 @@
 				FC43BA7B228EB32900181337 /* Assets.xcassets */,
 				FC43BA7D228EB32900181337 /* LaunchScreen.storyboard */,
 				FC43BA80228EB32900181337 /* Info.plist */,
+				FC2779642292803D00AF39EF /* music */,
 			);
 			path = calmKit;
+			sourceTree = "<group>";
+		};
+		FCAE81FA229287A70072D4B8 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				FCAE81FE229287CA0072D4B8 /* bird.wav */,
+				FCAE81FD229287CA0072D4B8 /* fireplace.wav */,
+				FCAE81FB229287CA0072D4B8 /* lagu.mp3 */,
+				FCAE81FF229287CA0072D4B8 /* water.wav */,
+				FCAE81FC229287CA0072D4B8 /* wind.wav */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +147,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAE8204229287CA0072D4B8 /* water.wav in Resources */,
+				FCAE8203229287CA0072D4B8 /* bird.wav in Resources */,
+				FCAE8201229287CA0072D4B8 /* wind.wav in Resources */,
 				FC43BA7F228EB32900181337 /* LaunchScreen.storyboard in Resources */,
+				FCAE8202229287CA0072D4B8 /* fireplace.wav in Resources */,
 				FC43BA7C228EB32900181337 /* Assets.xcassets in Resources */,
 				FC43BA7A228EB32800181337 /* Main.storyboard in Resources */,
+				FCAE8200229287CA0072D4B8 /* lagu.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
